@@ -6,7 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="insurance_common" />
         <module name="insurance_eureka" />
+        <module name="insurance_gateway" />
       </profile>
     </annotationProcessing>
   </component>
