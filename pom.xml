@@ -6,7 +6,11 @@
 
     <groupId>org.java.insurance</groupId>
     <artifactId>insurance</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>insurance_eureka</module>
+    </modules>
 
     <!--指定父级依赖，子模块，将无需再引入这些依赖-->
     <parent>
